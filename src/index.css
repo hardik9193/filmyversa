@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: black;
+    color: white;
+}
+
+.header {
+    background-color: #15161a;
+}
+
+.card {
+    background-color: #333;
+    width: 245px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loader-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.actions {
+    display: inline-flex;
+    margin-left: auto;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
